@@ -3,8 +3,8 @@
 bool has_layer_changed = true;
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-	[0] = LAYOUT(TG(1), LALT(KC_2), KC_PSCR, RGB_TOG, KC_MUTE, KC_MPRV, KC_MPLY, KC_MNXT),
-	[1] = LAYOUT(KC_TRNS, KC_MUTE, KC_F14, KC_F15, KC_A, KC_S, KC_SCLN, KC_QUOT)
+	[0] = LAYOUT(TG(1), LALT(KC_2), KC_PSCR, KC_F13, KC_MUTE, KC_F14, KC_MPLY, KC_MNXT),
+	[1] = LAYOUT(KC_TRNS, KC_MUTE, KC_F15, RGB_TOG, KC_A, KC_S, KC_SCLN, KC_QUOT)
 };
 
 void matrix_init_user(void) {
