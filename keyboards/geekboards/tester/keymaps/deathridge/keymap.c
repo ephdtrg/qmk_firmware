@@ -10,7 +10,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 void matrix_init_user(void) {
   //user initialization
   rgblight_enable(); // enables Rgb, without saving settings
-  rgblight_sethsv(127, 255, 255); // sets the color to teal/cyan without saving
+  rgblight_sethsv(100, 255, 255); // sets the color to teal/cyan without saving
   rgblight_mode(RGB_MATRIX_BREATHING); // sets mode to Fast breathing without saving
 }
 
