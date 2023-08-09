@@ -3,8 +3,9 @@
 bool has_layer_changed = true;
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-	[0] = LAYOUT(TG(1), LALT(KC_2), KC_PSCR, KC_F13, KC_MUTE, KC_F14, KC_MPLY, KC_MNXT),
-	[1] = LAYOUT(KC_TRNS, KC_MUTE, KC_F15, RGB_TOG, KC_A, KC_S, KC_SCLN, KC_QUOT)
+	[0] = LAYOUT(MO(1), LT(2,KC_F10), KC_VOLD, KC_VOLU, KC_MUTE, KC_MPRV, KC_MPLY, KC_MNXT),
+	[1] = LAYOUT(KC_TRNS, KC_TRNS, KC_F13, KC_F14, KC_F17, KC_CALC, RCTL(KC_F5), LGUI(KC_L)),
+  [2] = LAYOUT(KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_HOME, KC_END, KC_PGUP, KC_PGDN)
 };
 
 void matrix_init_user(void) {
@@ -28,11 +29,13 @@ void matrix_scan_user(void) {
 
     switch (layer) {
       case 0:
-        rgblight_sethsv(127,255,255);
+        rgblight_sethsv(100,255,255);
       break;
       case 1:
         rgblight_sethsv(198,255,255);
       break;
+      case 2:
+        rgblight_sethsv(164,255,255);
     }
   }
 }
