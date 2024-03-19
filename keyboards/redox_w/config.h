@@ -29,7 +29,7 @@
 //#define BACKLIGHT_LEVELS 3
 
 #define ONESHOT_TIMEOUT 500
-
+#define DEBOUNCE 10
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
