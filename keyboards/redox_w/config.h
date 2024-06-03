@@ -29,7 +29,8 @@
 //#define BACKLIGHT_LEVELS 3
 
 #define ONESHOT_TIMEOUT 500
-#define DEBOUNCE 10
+#define DEBOUNCE 7
+#define DEBOUNCE_TYPE asym_eager_defer_pk
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
