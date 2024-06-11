@@ -16,5 +16,7 @@ NKRO_ENABLE = yes           # Enable N-Key Rollover
 BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight.
+DEBOUNCE = 70
+DEBOUNCE_TYPE = asym_eager_defer_pk
 
 LAYOUTS = 60_ansi 60_ansi_split_bs_rshift 60_iso 60_iso_split_bs_rshift
