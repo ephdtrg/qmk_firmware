@@ -17,7 +17,7 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 CUSTOM_MATRIX = lite
-DEBOUNCE = 8
+DEBOUNCE = 70
 DEBOUNCE_TYPE = asym_eager_defer_pk
 
 # project specific files
