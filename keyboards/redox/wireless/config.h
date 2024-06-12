@@ -21,3 +21,5 @@
 #define MATRIX_COLS 14
 
 #define ONESHOT_TIMEOUT 500
+#define DEBOUNCE 100
+#define DEBOUNCE_TYPE sym_eager_pk
