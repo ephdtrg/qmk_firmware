@@ -1,0 +1,2 @@
+EXTRAFLAGS += -flto
+LTO_ENABLE = yes
